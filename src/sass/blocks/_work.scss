@@ -1,0 +1,46 @@
+.work {
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        width: 1200px;
+    }
+    .title {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #2e2e2e;
+    }
+    &__divider {
+        width: 148px;
+        height: 1px;
+        margin: 0 auto;
+        background-color: orange;  
+    }
+    &__text {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 21px;
+        font-weight: 300;
+        color: #2e2e2e;
+    }
+    &__descr {
+        width: 360px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        text-align: center;
+    }
+    &__subtitle {
+        font-size: 18px;
+        font-weight: 700;
+        color: #ec644b;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+
+}

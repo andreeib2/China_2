@@ -1,0 +1,25 @@
+.agent {
+    
+    background: url("../../img/layer_6_257.png") center (center/cover) no-repeat;
+    &__wrapper {
+        padding-top: 30px;
+        padding-left: 150px;
+        text-align: center;
+        padding-bottom: 30px;
+         
+    }
+    &__title {
+        margin-top: 20px;
+        font-size: 26px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &__text {
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    
+    
+}
