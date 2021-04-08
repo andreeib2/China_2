@@ -1,0 +1,39 @@
+.scheme {
+    
+    padding-bottom: 70px;
+    background-color: #f3f3f3;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        min-height: 500px;
+        margin-top: 40px;
+    }
+    
+    &__item {
+        width: 250px;
+        padding: auto;
+        img {
+            margin-left: 105px;
+        }
+          
+    }
+    &__subtitle {
+        font-size: 14px;
+        font-weight: 300;
+        color: #ec644b;
+        margin-top: 10px;
+        text-align: center;
+    }
+    &__descr {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .title {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+
+
+}
